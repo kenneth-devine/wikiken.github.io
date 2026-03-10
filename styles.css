@@ -103,17 +103,29 @@ body {
 }
 
 a:link {
-  color: var(--accent);
+  /* color: var(--accent);
   background-color: transparent;
   text-decoration: none;
-  /* Test Link Glow */
+   Test Link Glow */
+  background: none;
+  border: 1px solid var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  cursor: pointer;
   border-radius: 3px;
   transition: background 0.15s, color 0.15s;
 }
 a:visited {
-  color: var(--accent);
+  /* color: var(--accent);
   background-color: transparent;
-  text-decoration: none;
+  text-decoration: none; */
+  background: none;
+  border: 1px solid var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background 0.15s, color 0.15s;
 }
 a:hover {
   color: var(--text);
@@ -150,4 +162,5 @@ blockquote {
 
 
 }
+
 
